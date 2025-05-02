@@ -3,81 +3,103 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Special Offer</title>
+  <title>Mother’s Day Gift - Italian White Sneakers</title>
   <style>
+    @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+
     body {
-      font-family: Arial, sans-serif;
-      background: #f4f4f4;
+      font-family: 'Poppins', sans-serif;
+      background: #f2f3f7;
       margin: 0;
       padding: 0;
       text-align: center;
+      color: #333;
     }
 
     .container {
       max-width: 600px;
-      background: #fff;
+      background: #ffffff;
       margin: 40px auto;
-      padding: 20px;
-      border-radius: 12px;
-      box-shadow: 0 0 12px rgba(0,0,0,0.1);
+      padding: 25px 20px;
+      border-radius: 16px;
+      box-shadow: 0 12px 25px rgba(0,0,0,0.08);
     }
 
     img {
       max-width: 100%;
-      border-radius: 8px;
+      border-radius: 10px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.05);
     }
 
     h1 {
-      font-size: 24px;
-      margin: 20px 0 10px;
+      font-size: 26px;
+      margin: 20px 0 12px;
+      color: #1a1a1a;
+    }
+
+    p {
+      font-size: 16px;
+      color: #555;
+      margin-bottom: 20px;
     }
 
     ul {
       list-style: none;
       padding: 0;
       text-align: left;
+      margin: 0 auto;
+      max-width: 480px;
+    }
+
+    ul li {
+      margin-bottom: 10px;
+      font-size: 15px;
     }
 
     ul li::before {
-      content: "✅ ";
+      content: "✔️";
+      margin-right: 8px;
+      color: #28a745;
     }
 
     .button {
       display: inline-block;
-      margin: 20px 0;
-      padding: 14px 24px;
-      background: #0066cc; /* Azul para remeter à Amazon */
+      margin: 25px 0;
+      padding: 14px 28px;
+      background: #ff6b6b;
       color: #fff;
       text-decoration: none;
-      font-weight: bold;
-      border-radius: 8px;
-      transition: background 0.3s, transform 0.3s;
+      font-weight: 600;
+      font-size: 16px;
+      border-radius: 10px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+      transition: transform 0.2s ease, background 0.3s ease;
     }
 
     .button:hover {
-      background: #0057b8; /* Tom de azul mais escuro */
-      transform: scale(1.1); /* Aumenta o tamanho do botão para um efeito de 'pulse' */
+      background: #e85858;
+      transform: scale(1.05);
     }
 
     .footer {
       font-size: 14px;
-      color: #777;
+      color: #888;
       margin-top: 20px;
     }
 
     @media (max-width: 768px) {
       .container {
-        padding: 15px;
+        padding: 18px;
         margin: 20px auto;
       }
 
       h1 {
-        font-size: 20px;
+        font-size: 22px;
       }
 
       .button {
         padding: 12px 20px;
-        font-size: 16px;
+        font-size: 15px;
       }
 
       .footer {
@@ -88,31 +110,35 @@
 </head>
 <body>
 
-<!-- Início do conteúdo principal -->
 <div class="container">
 
-  <!-- Imagem do produto. Substitua a URL pelo link da imagem do produto -->
-  <!-- Comentário: Aqui vai a imagem do produto. Ela deve ser de boa qualidade e ter o link correto. -->
+  <!-- Imagem do produto -->
+  <img src="img/tenis_italia.jpg" alt="Italian White Sneakers">
 
-  <!-- Título do produto. Descrição geral do que o produto é -->
-  <!-- Comentário: O título do produto deve destacar os principais benefícios e ser atraente. -->
+  <!-- Título -->
+  <h1>The Perfect Gift for the Most Important Woman in Your Life</h1>
 
-  <!-- Descrição curta. Deve destacar as avaliações e um benefício -->
-  <!-- Comentário: Esta é uma boa área para destacar um número de avaliações ou algum benefício específico do produto. -->
+  <!-- Descrição curta -->
+  <p>Mother’s Day is coming. Surprise her with something timeless, elegant, and made to last — just like her love.</p>
 
-  <!-- Lista de benefícios do produto. -->
-  <!-- Comentário: Liste as vantagens que chamam a atenção e são diferenciais do produto. Pode ser uma lista simples com marcadores. -->
+  <!-- Lista de benefícios -->
+  <ul>
+    <li>100% made in Italy with premium Italian leather</li>
+    <li>Stylish, lightweight, and ultra-comfortable</li>
+    <li>Perfect for everyday use: walking, work, or relaxing</li>
+    <li>Minimalist design that matches any outfit</li>
+    <li>Thoughtful gift she'll truly wear and enjoy</li>
+  </ul>
 
-  <!-- Botão de chamada para ação (CTA). Link que leva o usuário para o seu link de afiliado -->
-  <!-- Comentário: O link do botão deve ser o link de afiliado, com uma boa frase de ação que gere engajamento. -->
+  <!-- Botão com link de afiliado -->
+  <a class="button" href="https://amzn.to/4cZj7EA" target="_blank">Give the Gift of Comfort and Style</a>
 
-  <!-- Rodapé da página com informações de confiança -->
-  <!-- Comentário: O rodapé deve passar confiança ao usuário, como segurança na compra e detalhes sobre a entrega. -->
+  <!-- Rodapé -->
+  <div class="footer">
+    Ships directly from Amazon • Trusted checkout • Easy returns
+  </div>
 
 </div>
-<!-- Fim do conteúdo principal -->
 
-
-<!--Ospedagem vai ficar em https://app.netlify.com/-->
 </body>
 </html>
